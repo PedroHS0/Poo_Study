@@ -15,4 +15,6 @@ public class Estoque {
     public void RemoveProducts(int quantity) {
         this.quantity -= quantity;
     }
+
+
 }
