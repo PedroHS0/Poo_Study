@@ -13,7 +13,10 @@ public class Jogo {
     }
 
     public void exibirInfo() {
-        System.out.println(titulo + "Preoço" + preco + ("%.2f") + "Quantidade" + estoque);
+        System.out.println("Título: " + titulo);
+        System.out.println("Preço: R$ " + String.format("%.2f", preco));
+        System.out.println("Estoque: " + estoque);
+        System.out.println();
     }
     public void vender(int quantidade) {
         if (quantidade > estoque ) {
